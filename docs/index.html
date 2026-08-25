@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCAG 2.1 AA Audit — Otero College (https://otero.edu)</title>
+<meta name="description" content="Automated weekly WCAG 2.1 AA accessibility audit results for https://otero.edu, produced with axe-core.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 940px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212f3c; background: #fdfdfc;
+  }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  header .sub { color: #566573; margin: 0 0 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: #566573; font-size: .92rem; border-bottom: 1px solid #e3e7ea; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; margin-bottom: 1rem; }
+  .card { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .9rem 1rem; }
+  .card .num { display: block; font-size: 1.9rem; font-weight: 700; line-height: 1.2; }
+  .card .lbl { color: #566573; font-size: .85rem; }
+  .sevcard { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .6rem .8rem; display: flex; align-items: baseline; gap: .5rem; }
+  .sevcard .num { font-size: 1.4rem; font-weight: 700; }
+  .sevcard .lbl { color: #566573; font-size: .82rem; }
+  .severities { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .spark { width: 100%; max-width: 680px; height: auto; background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; }
+  .axis { font-size: 11px; fill: #7b8a8b; }
+  .delta { font-size: .9rem; font-weight: 600; }
+  .delta.up { color: #b03a2e; } .delta.down { color: #1e8449; }
+  .delta.flat, .delta.first { color: #7b8a8b; font-weight: 400; }
+  .page { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: 1rem 1.25rem 1.25rem; margin-bottom: 1rem; }
+  .page.failed { border-color: #f0b27a; background: #fef9f3; }
+  .page h3 { margin: 0 0 .25rem; font-size: 1.05rem; word-break: break-all; }
+  .page h3 .title { font-weight: 400; color: #7b8a8b; font-size: .9rem; }
+  .page h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+  .count { color: #7b8a8b; font-weight: 400; font-size: .85rem; }
+  .total { margin: 0 0 .5rem; color: #566573; }
+  .clean { color: #1e8449; font-weight: 600; }
+  .warn { color: #b9770e; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #eef1f2; vertical-align: top; }
+  th { color: #566573; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  .targets { color: #7b8a8b; font-size: .82rem; word-break: break-all; max-width: 260px; }
+  code { background: #f4f6f7; padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  ul.inc { margin: .25rem 0 0; padding-left: 1.2rem; }
+  .note { color: #566573; font-size: .9rem; margin: .25rem 0 .75rem; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.pages thead th {
+    position: sticky; top: 0; background: #fdfdfc; z-index: 1;
+    border-bottom: 2px solid #e3e7ea;
+  }
+  table.pages th.n, table.pages td.n { text-align: right; white-space: nowrap; }
+  table.pages td.n.bad { color: #b03a2e; font-weight: 700; }
+  table.pages td.pg { max-width: 0; }
+  table.pages td.pg a { word-break: break-all; }
+  table.pages .pwurl { display: block; color: #7b8a8b; font-size: .8rem; margin-top: .1rem; word-break: break-all; }
+  table.pages td.pg .err { word-break: break-all; }
+  table.pages td.links { white-space: nowrap; text-align: right; }
+  table.pages a.pgrep {
+    color: #2e86c1; text-decoration: none; font-weight: 600;
+    border: 1px solid #cfe6f5; background: #f4fafd; padding: .15rem .5rem; border-radius: 6px;
+  }
+  table.pages a.pgrep:hover { background: #e8f4fb; }
+  table.pages tr.bad td.pg a { color: #b03a2e; }
+  footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
+  footer a { color: #2e86c1; }
+  .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WCAG 2.1 AA Audit — Otero College</h1>
+  <p class="sub"><a href="https://otero.edu">https://otero.edu</a></p>
+</header>
+
+<div class="meta">
+  <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
+  <span>Published runs: 1</span>
+  <span>Tooling: <a href="https://github.com/ThirstyHead/audit-otero.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
+  <span><span class="delta first">first published run</span></span>
+</div>
+
+<h2>Latest results</h2>
+<div class="cards">
+  <div class="card"><span class="num">91</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">94</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">296</span><span class="lbl">Need manual review</span></div>
+</div>
+<div class="severities">
+      <div class="sevcard" style="border-top:4px solid #b03a2e">
+        <span class="num">56</span>
+        <span class="lbl">Critical</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #ca6f1e">
+        <span class="num">35</span>
+        <span class="lbl">Serious</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #b7950b">
+        <span class="num">0</span>
+        <span class="lbl">Moderate</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #707b7c">
+        <span class="num">0</span>
+        <span class="lbl">Minor</span>
+      </div></div>
+
+<h2>Trend</h2>
+<p class="count">The trend chart appears once at least two runs have been published.</p>
+
+<h2>Pages</h2>
+<p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
+
+<table class="pages">
+  <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/" rel="noopener">Home - Otero College</a> <span class="pwurl">https://otero.edu/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/" rel="noopener">About - Otero College</a> <span class="pwurl">https://otero.edu/about/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/about/accreditation/" rel="noopener">Accreditation - Otero College</a> <span class="pwurl">https://otero.edu/about/accreditation/</span></td>
+      <td class="n bad">2</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-accreditation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/advisory-council/" rel="noopener">Advisory Council - Otero College</a> <span class="pwurl">https://otero.edu/about/advisory-council/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-advisory-council.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/campus-connections-committee/" rel="noopener">Otero Campus Connections Committee - Otero College</a> <span class="pwurl">https://otero.edu/about/campus-connections-committee/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-campus-connections-committee.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/campus-map-directions/" rel="noopener">Campus Map &amp; Directions - Otero College</a> <span class="pwurl">https://otero.edu/about/campus-map-directions/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-campus-map-directions.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/about/campus-media/" rel="noopener">Campus Media - Otero College</a> <span class="pwurl">https://otero.edu/about/campus-media/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-campus-media.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/careers/" rel="noopener">Careers - Otero College</a> <span class="pwurl">https://otero.edu/about/careers/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-careers.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/about/commencement/" rel="noopener">Commencement Ceremony - Otero College</a> <span class="pwurl">https://otero.edu/about/commencement/</span></td>
+      <td class="n bad">9</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-commencement.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/directory/" rel="noopener">Directory - Otero College</a> <span class="pwurl">https://otero.edu/about/directory/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/about-directory.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/facilities-enrollment-plans/" rel="noopener">Facilities &amp; Enrollment Management Plans - Otero College</a> <span class="pwurl">https://otero.edu/about/facilities-enrollment-plans/</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/about-facilities-enrollment-plans.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/hispanic-serving-institution/" rel="noopener">Hispanic Serving Institution - Otero College</a> <span class="pwurl">https://otero.edu/about/hispanic-serving-institution/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-hispanic-serving-institution.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/history/" rel="noopener">History - Otero College</a> <span class="pwurl">https://otero.edu/about/history/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-history.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/office-of-the-president/" rel="noopener">Office of the President - Otero College</a> <span class="pwurl">https://otero.edu/about/office-of-the-president/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-office-of-the-president.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/policies-procedures/" rel="noopener">Policies &amp; Procedures - Otero College</a> <span class="pwurl">https://otero.edu/about/policies-procedures/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-policies-procedures.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/policies-procedures/privacy-policy/" rel="noopener">Privacy Policy - Otero College</a> <span class="pwurl">https://otero.edu/about/policies-procedures/privacy-policy/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-policies-procedures-privacy-policy.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct/" rel="noopener">Title IX &amp; Sexual Misconduct - Otero College</a> <span class="pwurl">https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-policies-procedures-title-ix-sexual-misconduct.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/student-achievement-institutional-data/" rel="noopener">Student Achievement &amp; Institutional Data - Otero College</a> <span class="pwurl">https://otero.edu/about/student-achievement-institutional-data/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-student-achievement-institutional-data.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/about/web-accessibility-statement/" rel="noopener">Web Accessibility Statement - Otero College</a> <span class="pwurl">https://otero.edu/about/web-accessibility-statement/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-web-accessibility-statement.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/" rel="noopener">Academics - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/alternative-credit-project/" rel="noopener">Alternative Credit &amp; Prior Learning - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/alternative-credit-project/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-alternative-credit-project.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/bridge-to-bachelors/" rel="noopener">Bridge to Bachelor&#39;s - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/bridge-to-bachelors/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-bridge-to-bachelors.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/career-workforce-training/" rel="noopener">Career &amp; Workforce Training - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/career-workforce-training/</span></td>
+      <td class="n">0</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-career-workforce-training.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/course-schedules/" rel="noopener">Course Schedules - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/course-schedules/</span></td>
+      <td class="n">0</td>
+      <td class="n">17</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-course-schedules.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/financial-education-microcredential/" rel="noopener">Financial Education Microcredential - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/financial-education-microcredential/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-financial-education-microcredential.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/hybrid-courses/" rel="noopener">Hybrid Courses - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/hybrid-courses/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-hybrid-courses.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/short-courses-fundamentals/" rel="noopener">Short Courses &amp; Fundamentals - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/short-courses-fundamentals/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-short-courses-fundamentals.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/academics-programs/transfer-agreements/" rel="noopener">Transfer Agreements - Otero College</a> <span class="pwurl">https://otero.edu/academics-programs/transfer-agreements/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-transfer-agreements.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/apply/" rel="noopener">Apply &amp; Enrollment Checklist - Otero College</a> <span class="pwurl">https://otero.edu/apply/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/apply.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/" rel="noopener">Become a Student - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/bueno-hep/" rel="noopener">Bueno-HEP/HSE - GED - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/bueno-hep/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-bueno-hep.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/concurrent-enrollment/" rel="noopener">High School Students - Concurrent Enrollment - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/concurrent-enrollment/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-concurrent-enrollment.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/discovery-day/" rel="noopener">Discovery Day - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/discovery-day/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-discovery-day.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/become-a-student/living-on-campus/" rel="noopener">Living On Campus - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/living-on-campus/</span></td>
+      <td class="n bad">3</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-living-on-campus.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/placement-testing/" rel="noopener">Placement Testing - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/placement-testing/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-placement-testing.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/student-orientation/" rel="noopener">Student Orientation - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/student-orientation/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-student-orientation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/transfer/" rel="noopener">Transfer Students - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/transfer/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-transfer.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/become-a-student/visit-campus/" rel="noopener">Visit Campus - Otero College</a> <span class="pwurl">https://otero.edu/become-a-student/visit-campus/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/become-a-student-visit-campus.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/calendar/" rel="noopener">Calendar - Otero College</a> <span class="pwurl">https://otero.edu/calendar/</span></td>
+      <td class="n">0</td>
+      <td class="n">18</td>
+      <td class="links"><a class="pgrep" href="pages/calendar.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/" rel="noopener">Campus &amp; Community - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/campus-facilities/" rel="noopener">Campus Facilities - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/campus-facilities/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-campus-facilities.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/campus-safety/" rel="noopener">Campus Safety - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/campus-safety/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-campus-safety.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/campus-safety/care-team/" rel="noopener">CARE Team - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/campus-safety/care-team/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-campus-safety-care-team.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/chinook-publication/" rel="noopener">Chinook Publication - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/chinook-publication/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-chinook-publication.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/clubs-organizations/" rel="noopener">Clubs &amp; Organizations - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/clubs-organizations/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-clubs-organizations.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/clubs-organizations/dance-studio/" rel="noopener">Dance Studio - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/clubs-organizations/dance-studio/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-clubs-organizations-dance-studio.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/cultural-events/" rel="noopener">Cultural Events - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/cultural-events/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-cultural-events.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/dining-services/" rel="noopener">Dining Services - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/dining-services/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-dining-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/events-registration/" rel="noopener">Event Requests &amp; Registration - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/events-registration/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-events-registration.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/events-registration/girls-in-the-middle/" rel="noopener">Girls in the Middle - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/events-registration/girls-in-the-middle/</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-events-registration-girls-in-the-middle.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/fitness-center/" rel="noopener">Fitness Center - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/fitness-center/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-fitness-center.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/campus-community/stem-on-campus/" rel="noopener">STEM On Campus - Otero College</a> <span class="pwurl">https://otero.edu/campus-community/stem-on-campus/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-stem-on-campus.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/catalog/" rel="noopener">Catalog Home - Otero College</a> <span class="pwurl">https://otero.edu/catalog/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/catalog.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/catalog/academic-calendar-catalog/" rel="noopener">Academic Calendar - Otero College</a> <span class="pwurl">https://otero.edu/catalog/academic-calendar-catalog/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/catalog-academic-calendar-catalog.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/catalog/degrees-certificates/" rel="noopener">Degrees &amp; Certificates - Otero College</a> <span class="pwurl">https://otero.edu/catalog/degrees-certificates/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/catalog-degrees-certificates.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/catalog/mission-statement-strategic-plan/" rel="noopener">Mission Statement &amp; Strategic Plan - Otero College</a> <span class="pwurl">https://otero.edu/catalog/mission-statement-strategic-plan/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/catalog-mission-statement-strategic-plan.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/catalog/tuition-fees-catalog/" rel="noopener">Tuition &amp; Fees - Otero College</a> <span class="pwurl">https://otero.edu/catalog/tuition-fees-catalog/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/catalog-tuition-fees-catalog.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/category/rattler-nation-newsroom/alumni/" rel="noopener">Alumni Archives - Otero College</a> <span class="pwurl">https://otero.edu/category/rattler-nation-newsroom/alumni/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">11</td>
+      <td class="links"><a class="pgrep" href="pages/category-rattler-nation-newsroom-alumni.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/category/rattler-nation-newsroom/foundation-news/" rel="noopener">Foundation News Archives - Otero College</a> <span class="pwurl">https://otero.edu/category/rattler-nation-newsroom/foundation-news/</span></td>
+      <td class="n bad">8</td>
+      <td class="n">14</td>
+      <td class="links"><a class="pgrep" href="pages/category-rattler-nation-newsroom-foundation-news.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/foundation/" rel="noopener">Alumni &amp; Foundation - Otero College</a> <span class="pwurl">https://otero.edu/foundation/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/foundation.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/international/" rel="noopener">International - Otero College</a> <span class="pwurl">https://otero.edu/international/</span></td>
+      <td class="n bad">23</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/international.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/mc-events/arpa-board-of-directors-meeting-3/" rel="noopener">ARPA Board of Directors Meeting - Otero College</a> <span class="pwurl">https://otero.edu/mc-events/arpa-board-of-directors-meeting-3/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/mc-events-arpa-board-of-directors-meeting-3.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/mc-events/boces-special-education-plc/" rel="noopener">BOCES Special Education PLC - Otero College</a> <span class="pwurl">https://otero.edu/mc-events/boces-special-education-plc/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/mc-events-boces-special-education-plc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/mc-events/colorado-parks-and-wildlife-commission-meeting/" rel="noopener">Colorado Parks and Wildlife Commission Meeting - Otero College</a> <span class="pwurl">https://otero.edu/mc-events/colorado-parks-and-wildlife-commission-meeting/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/mc-events-colorado-parks-and-wildlife-commission-meeting.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/NetPriceCalculator/" rel="noopener">Net Price Calculator</a> <span class="pwurl">https://otero.edu/NetPriceCalculator/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/NetPriceCalculator.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/newsroom/" rel="noopener">Newsroom - Otero College</a> <span class="pwurl">https://otero.edu/newsroom/</span></td>
+      <td class="n bad">7</td>
+      <td class="n">13</td>
+      <td class="links"><a class="pgrep" href="pages/newsroom.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/otero-college-foundation-golf-tournament-set-for-august-29-2/" rel="noopener">Otero College Foundation Golf Tournament set for August 29 - Otero College</a> <span class="pwurl">https://otero.edu/otero-college-foundation-golf-tournament-set-for-august-29-2/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/otero-college-foundation-golf-tournament-set-for-august-29-2.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program/" rel="noopener">Otero College Receives $125,000 Grant from the Denver Foundation’s Reisher Scholars Program - Otero College</a> <span class="pwurl">https://otero.edu/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program/</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/otero-foundation-board-honors-betty-velasquez-for-years-of-service/" rel="noopener">Otero Foundation Board Honors Betty Velasquez for Years of Service - Otero College</a> <span class="pwurl">https://otero.edu/otero-foundation-board-honors-betty-velasquez-for-years-of-service/</span></td>
+      <td class="n">0</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/otero-foundation-board-honors-betty-velasquez-for-years-of-service.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/" rel="noopener">Pay for College - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/empowered/" rel="noopener">EmpowerEd - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/empowered/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-empowered.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/financial-aid/" rel="noopener">Financial Aid - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/financial-aid/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-financial-aid.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/fostered-etv/" rel="noopener">FosterEd &amp; ETV - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/fostered-etv/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-fostered-etv.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/pay-for-college/loans/" rel="noopener">Loans - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/loans/</span></td>
+      <td class="n bad">1</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-loans.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/pay-your-bill-refunds/" rel="noopener">Pay Your Bill &amp; Refunds - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/pay-your-bill-refunds/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-pay-your-bill-refunds.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/scholarships-grants/" rel="noopener">Scholarships &amp; Grants - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/scholarships-grants/</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-scholarships-grants.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/student-employment/" rel="noopener">Student Employment - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/student-employment/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-student-employment.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/tuition-fees/" rel="noopener">Tuition &amp; Fees - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/tuition-fees/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-tuition-fees.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/pay-for-college/veterans-benefits/" rel="noopener">Veterans Benefits - Otero College</a> <span class="pwurl">https://otero.edu/pay-for-college/veterans-benefits/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/pay-for-college-veterans-benefits.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/" rel="noopener">Resources - Otero College</a> <span class="pwurl">https://otero.edu/resources/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/resources/accessibilityservices/" rel="noopener">Accessibility Services - Otero College</a> <span class="pwurl">https://otero.edu/resources/accessibilityservices/</span></td>
+      <td class="n bad">3</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-accessibilityservices.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/resources/advising/" rel="noopener">Advising - Otero College</a> <span class="pwurl">https://otero.edu/resources/advising/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-advising.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/bookstore-apparel/" rel="noopener">Bookstore &amp; Apparel - Otero College</a> <span class="pwurl">https://otero.edu/resources/bookstore-apparel/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-bookstore-apparel.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/graduation-application/" rel="noopener">Graduation Application - Otero College</a> <span class="pwurl">https://otero.edu/resources/graduation-application/</span></td>
+      <td class="n">0</td>
+      <td class="n">18</td>
+      <td class="links"><a class="pgrep" href="pages/resources-graduation-application.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/it-services/" rel="noopener">IT Services - Otero College</a> <span class="pwurl">https://otero.edu/resources/it-services/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-it-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/library-learning-commons/" rel="noopener">Learning Commons - Otero College</a> <span class="pwurl">https://otero.edu/resources/library-learning-commons/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-library-learning-commons.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/resources/library-services/" rel="noopener">Library Services - Otero College</a> <span class="pwurl">https://otero.edu/resources/library-services/</span></td>
+      <td class="n bad">1</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-library-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/mental-health-services/" rel="noopener">Mental Health Services - Otero College</a> <span class="pwurl">https://otero.edu/resources/mental-health-services/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-mental-health-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/online-education-resources-and-support/" rel="noopener">Online Education Resources and Support - Otero College</a> <span class="pwurl">https://otero.edu/resources/online-education-resources-and-support/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-online-education-resources-and-support.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/resources/replacement-diploma/" rel="noopener">Replacement Diploma or Certificate - Otero College</a> <span class="pwurl">https://otero.edu/resources/replacement-diploma/</span></td>
+      <td class="n bad">1</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/resources-replacement-diploma.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/student-services-center/" rel="noopener">Student Services Center - Otero College</a> <span class="pwurl">https://otero.edu/resources/student-services-center/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-student-services-center.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://otero.edu/resources/student-support-services-trio/" rel="noopener">Student Support Services - TRiO - Otero College</a> <span class="pwurl">https://otero.edu/resources/student-support-services-trio/</span></td>
+      <td class="n bad">3</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-student-support-services-trio.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/transcript-request/" rel="noopener">Transcript Request - Otero College</a> <span class="pwurl">https://otero.edu/resources/transcript-request/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-transcript-request.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://otero.edu/resources/tutoring/" rel="noopener">Tutoring - Otero College</a> <span class="pwurl">https://otero.edu/resources/tutoring/</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/resources-tutoring.html">Audit report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Data</h2>
+<div class="datamenu">
+  <a href="latest.json">latest.json</a>
+  <a href="history.json">history.json</a>
+  <a href="https://github.com/ThirstyHead/otero-audit/blob/main/reports/axe-2026-08-25T06-20-52-712Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/otero-audit/tree/main/reports">All raw reports</a>
+</div>
+
+<footer>
+  <p><strong>About this audit.</strong> Results are produced automatically by
+  <a href="https://github.com/dequelabs/axe-core">axe-core</a> (Deque) against the WCAG 2.1 A/AA rule set,
+  on a weekly schedule, by the open-source tooling in
+  <a href="https://github.com/ThirstyHead/audit-otero.edu">ThirstyHead/audit-otero.edu</a>.
+  Automated tooling detects only a subset of accessibility failures and does not replace
+  manual or assistive-technology testing. “Needs manual review” items are results axe
+  could not determine automatically.</p>
+  <p>Generated 2026-08-25T06:20:53.488Z · <a href="https://thirstyhead.com/otero-audit/">thirstyhead.com/otero-audit/</a></p>
+</footer>
+</body>
+</html>
