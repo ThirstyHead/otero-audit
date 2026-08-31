@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-26T20:47:17.789Z",
+  "siteGenerated": "2026-08-31T12:09:32.693Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-08-26T20:47:16.941Z",
+    "generated": "2026-08-31T12:09:32.129Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -1118,11 +1118,11 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 15,
+            "nodes": 18,
             "firstTargets": [
-              "#label_modal_v0e3j4d88k",
-              "#label_modal_vbn5lnaev7",
-              "#label_modal_5ef5qesdmb"
+              "#label_modal_ukopik2qhi",
+              "#label_modal_r558nkc2et",
+              "#label_modal_h9i16tv57o"
             ]
           },
           {
@@ -1912,9 +1912,9 @@
             ],
             "nodes": 10,
             "firstTargets": [
+              ".post-47160 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
               ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47021 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
             ]
           }
         ]
