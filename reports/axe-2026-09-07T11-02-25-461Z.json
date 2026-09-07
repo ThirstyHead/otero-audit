@@ -1,0 +1,2955 @@
+{
+  "generated": "2026-09-07T11:02:25.461Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://otero.edu/",
+      "title": "Home - Otero College",
+      "finalUrl": "https://otero.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#h-discover-your-path",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/",
+      "title": "About - Otero College",
+      "finalUrl": "https://otero.edu/about/",
+      "slug": "about",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/accreditation/",
+      "title": "Accreditation - Otero College",
+      "finalUrl": "https://otero.edu/about/accreditation/",
+      "slug": "about-accreditation",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "iframe[width=\"150\"] #yoshkiImageLinkPopup_Link",
+            "iframe[width=\"150\"] #yoshkiCopyrightLinkPopup_Link"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/advisory-council/",
+      "title": "Advisory Council - Otero College",
+      "finalUrl": "https://otero.edu/about/advisory-council/",
+      "slug": "about-advisory-council",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/campus-connections-committee/",
+      "title": "Otero Campus Connections Committee - Otero College",
+      "finalUrl": "https://otero.edu/about/campus-connections-committee/",
+      "slug": "about-campus-connections-committee",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/campus-map-directions/",
+      "title": "Campus Map & Directions - Otero College",
+      "finalUrl": "https://otero.edu/about/campus-map-directions/",
+      "slug": "about-campus-map-directions",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/campus-media/",
+      "title": "Campus Media - Otero College",
+      "finalUrl": "https://otero.edu/about/campus-media/",
+      "slug": "about-campus-media",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
+            "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
+            "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
+            "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/careers/",
+      "title": "Careers - Otero College",
+      "finalUrl": "https://otero.edu/about/careers/",
+      "slug": "about-careers",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-post-title",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/commencement/",
+      "title": "Commencement Ceremony - Otero College",
+      "finalUrl": "https://otero.edu/about/commencement/",
+      "slug": "about-commencement",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "iframe[title=\"2026 Graduation Ceremony\"] .ytmVideoInfoVideoTitle",
+            "iframe[title=\"2026 Nurse Pinning Ceremony\"] .ytmVideoInfoVideoTitle",
+            "iframe[title=\"2026 Phlebotomy Ceremony\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "iframe[title=\"2026 Graduation Ceremony\"] #movie_player",
+            "iframe[title=\"2026 Nurse Pinning Ceremony\"] #movie_player",
+            "iframe[title=\"2026 Phlebotomy Ceremony\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "iframe[title=\"2026 Graduation Ceremony\"] .ytmVideoInfoChannelAvatar",
+            "iframe[title=\"2026 Nurse Pinning Ceremony\"] .ytmVideoInfoChannelAvatar",
+            "iframe[title=\"2026 Phlebotomy Ceremony\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 9,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-post-title",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/directory/",
+      "title": "Directory - Otero College",
+      "finalUrl": "https://otero.edu/about/directory/",
+      "slug": "about-directory",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#dt-length-0",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/facilities-enrollment-plans/",
+      "title": "Facilities & Enrollment Management Plans - Otero College",
+      "finalUrl": "https://otero.edu/about/facilities-enrollment-plans/",
+      "slug": "about-facilities-enrollment-plans",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "h1",
+            "#wp-block-themeisle-blocks-advanced-column-a521c34e > h3",
+            "#wp-block-themeisle-blocks-advanced-column-03215403 > h3"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/hispanic-serving-institution/",
+      "title": "Hispanic Serving Institution - Otero College",
+      "finalUrl": "https://otero.edu/about/hispanic-serving-institution/",
+      "slug": "about-hispanic-serving-institution",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/history/",
+      "title": "History - Otero College",
+      "finalUrl": "https://otero.edu/about/history/",
+      "slug": "about-history",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/office-of-the-president/",
+      "title": "Office of the President - Otero College",
+      "finalUrl": "https://otero.edu/about/office-of-the-president/",
+      "slug": "about-office-of-the-president",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/policies-procedures/",
+      "title": "Policies & Procedures - Otero College",
+      "finalUrl": "https://otero.edu/about/policies-procedures/",
+      "slug": "about-policies-procedures",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/policies-procedures/privacy-policy/",
+      "title": "Privacy Policy - Otero College",
+      "finalUrl": "https://otero.edu/about/policies-procedures/privacy-policy/",
+      "slug": "about-policies-procedures-privacy-policy",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct/",
+      "title": "Title IX & Sexual Misconduct - Otero College",
+      "finalUrl": "https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct/",
+      "slug": "about-policies-procedures-title-ix-sexual-misconduct",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/student-achievement-institutional-data/",
+      "title": "Student Achievement & Institutional Data - Otero College",
+      "finalUrl": "https://otero.edu/about/student-achievement-institutional-data/",
+      "slug": "about-student-achievement-institutional-data",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/about/web-accessibility-statement/",
+      "title": "Web Accessibility Statement - Otero College",
+      "finalUrl": "https://otero.edu/about/web-accessibility-statement/",
+      "slug": "about-web-accessibility-statement",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/",
+      "title": "Academics - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/",
+      "slug": "academics-programs",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            ".entry-summary",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/alternative-credit-project/",
+      "title": "Alternative Credit & Prior Learning - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/alternative-credit-project/",
+      "slug": "academics-programs-alternative-credit-project",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+      "title": "Bridge to Bachelor's - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+      "slug": "academics-programs-bridge-to-bachelors",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/career-workforce-training/",
+      "title": "Career & Workforce Training - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/career-workforce-training/",
+      "slug": "academics-programs-career-workforce-training",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "h1",
+            "#wp-block-themeisle-blocks-advanced-column-eefb8312 > .wp-block-cover > .wp-block-cover__inner-container.is-layout-flow.wp-block-cover-is-layout-flow > .has-white-color.has-text-align-center.has-text-color",
+            "#wp-block-themeisle-blocks-advanced-column-127ec10e > .wp-block-cover > .wp-block-cover__inner-container.is-layout-flow.wp-block-cover-is-layout-flow > .has-white-color.has-text-align-center.has-text-color"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/course-schedules/",
+      "title": "Course Schedules - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/course-schedules/",
+      "slug": "academics-programs-course-schedules",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 17,
+          "firstTargets": [
+            ".wp-elements-3",
+            "#wp-block-themeisle-blocks-flip-e14801cf > .o-flip-inner > .o-flip-front > .o-flip-content > h3",
+            "#wp-block-themeisle-blocks-flip-e14801cf > .o-flip-inner > .o-flip-back > .wp-block-paragraph"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/financial-education-microcredential/",
+      "title": "Financial Education Microcredential - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/financial-education-microcredential/",
+      "slug": "academics-programs-financial-education-microcredential",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/hybrid-courses/",
+      "title": "Hybrid Courses - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/hybrid-courses/",
+      "slug": "academics-programs-hybrid-courses",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/short-courses-fundamentals/",
+      "title": "Short Courses & Fundamentals - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/short-courses-fundamentals/",
+      "slug": "academics-programs-short-courses-fundamentals",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/academics-programs/transfer-agreements/",
+      "title": "Transfer Agreements - Otero College",
+      "finalUrl": "https://otero.edu/academics-programs/transfer-agreements/",
+      "slug": "academics-programs-transfer-agreements",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/apply/",
+      "title": "Apply & Enrollment Checklist - Otero College",
+      "finalUrl": "https://otero.edu/apply/",
+      "slug": "apply",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
+            ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/",
+      "title": "Become a Student - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/",
+      "slug": "become-a-student",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/bueno-hep/",
+      "title": "Bueno-HEP/HSE - GED - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/bueno-hep/",
+      "slug": "become-a-student-bueno-hep",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/concurrent-enrollment/",
+      "title": "High School Students - Concurrent Enrollment - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/concurrent-enrollment/",
+      "slug": "become-a-student-concurrent-enrollment",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/discovery-day/",
+      "title": "Discovery Day - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/discovery-day/",
+      "slug": "become-a-student-discovery-day",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/living-on-campus/",
+      "title": "Living On Campus - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/living-on-campus/",
+      "slug": "become-a-student-living-on-campus",
+      "violations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".wp-block-themeisle-blocks-tabs__header_item.active > div[role=\"tab\"]",
+            ".wp-block-themeisle-blocks-tabs__header_item:nth-child(2) > div[role=\"tab\"]",
+            ".wp-block-themeisle-blocks-tabs__header_item:nth-child(3) > div[role=\"tab\"]"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/placement-testing/",
+      "title": "Placement Testing - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/placement-testing/",
+      "slug": "become-a-student-placement-testing",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/student-orientation/",
+      "title": "Student Orientation - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/student-orientation/",
+      "slug": "become-a-student-student-orientation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/transfer/",
+      "title": "Transfer Students - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/transfer/",
+      "slug": "become-a-student-transfer",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/become-a-student/visit-campus/",
+      "title": "Visit Campus - Otero College",
+      "finalUrl": "https://otero.edu/become-a-student/visit-campus/",
+      "slug": "become-a-student-visit-campus",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#JotFormIFrame-220096029028047 #input_2",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/calendar/",
+      "title": "Calendar - Otero College",
+      "finalUrl": "https://otero.edu/calendar/",
+      "slug": "calendar",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#label_modal_tktkonacbo",
+            "#label_modal_adrq2lmrov",
+            "#label_modal_pqhc2u56qc"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#my-calendar-month",
+            "#my-calendar-year",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/",
+      "title": "Campus & Community - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/",
+      "slug": "campus-community",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/campus-facilities/",
+      "title": "Campus Facilities - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/campus-facilities/",
+      "slug": "campus-community-campus-facilities",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/campus-safety/",
+      "title": "Campus Safety - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/campus-safety/",
+      "slug": "campus-community-campus-safety",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/campus-safety/care-team/",
+      "title": "CARE Team - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/campus-safety/care-team/",
+      "slug": "campus-community-campus-safety-care-team",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/chinook-publication/",
+      "title": "Chinook Publication - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/chinook-publication/",
+      "slug": "campus-community-chinook-publication",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/clubs-organizations/",
+      "title": "Clubs & Organizations - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/clubs-organizations/",
+      "slug": "campus-community-clubs-organizations",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/clubs-organizations/dance-studio/",
+      "title": "Dance Studio - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/clubs-organizations/dance-studio/",
+      "slug": "campus-community-clubs-organizations-dance-studio",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/cultural-events/",
+      "title": "Cultural Events - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/cultural-events/",
+      "slug": "campus-community-cultural-events",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/dining-services/",
+      "title": "Dining Services - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/dining-services/",
+      "slug": "campus-community-dining-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/events-registration/",
+      "title": "Event Requests & Registration - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/events-registration/",
+      "slug": "campus-community-events-registration",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/events-registration/girls-in-the-middle/",
+      "title": "Girls in the Middle - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/events-registration/girls-in-the-middle/",
+      "slug": "campus-community-events-registration-girls-in-the-middle",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/fitness-center/",
+      "title": "Fitness Center - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/fitness-center/",
+      "slug": "campus-community-fitness-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/campus-community/stem-on-campus/",
+      "title": "STEM On Campus - Otero College",
+      "finalUrl": "https://otero.edu/campus-community/stem-on-campus/",
+      "slug": "campus-community-stem-on-campus",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            ".entry-summary",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/catalog/",
+      "title": "Catalog Home - Otero College",
+      "finalUrl": "https://otero.edu/catalog/",
+      "slug": "catalog",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            ".swp-input--search",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/catalog/academic-calendar-catalog/",
+      "title": "Academic Calendar - Otero College",
+      "finalUrl": "https://otero.edu/catalog/academic-calendar-catalog/",
+      "slug": "catalog-academic-calendar-catalog",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/catalog/degrees-certificates/",
+      "title": "Degrees & Certificates - Otero College",
+      "finalUrl": "https://otero.edu/catalog/degrees-certificates/",
+      "slug": "catalog-degrees-certificates",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#dt-length-0",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/catalog/mission-statement-strategic-plan/",
+      "title": "Mission Statement & Strategic Plan - Otero College",
+      "finalUrl": "https://otero.edu/catalog/mission-statement-strategic-plan/",
+      "slug": "catalog-mission-statement-strategic-plan",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/catalog/tuition-fees-catalog/",
+      "title": "Tuition & Fees - Otero College",
+      "finalUrl": "https://otero.edu/catalog/tuition-fees-catalog/",
+      "slug": "catalog-tuition-fees-catalog",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/category/rattler-nation-newsroom/alumni/",
+      "title": "Alumni Archives - Otero College",
+      "finalUrl": "https://otero.edu/category/rattler-nation-newsroom/alumni/",
+      "slug": "category-rattler-nation-newsroom-alumni",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            ".post-47192 > .entry-media > figure > a",
+            ".post-47069 > .entry-media > figure > a",
+            ".post-46971 > .entry-media > figure > a",
+            ".post-46540 > .entry-media > figure > a",
+            ".post-43076 > .entry-media > figure > a"
+          ]
+        }
+      ],
+      "violationTotal": 7,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "h1",
+            "h1 > span",
+            "#cat"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/category/rattler-nation-newsroom/foundation-news/",
+      "title": "Foundation News Archives - Otero College",
+      "finalUrl": "https://otero.edu/category/rattler-nation-newsroom/foundation-news/",
+      "slug": "category-rattler-nation-newsroom-foundation-news",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            ".post-47192 > .entry-media > figure > a",
+            ".post-47069 > .entry-media > figure > a",
+            ".post-47021 > .entry-media > figure > a",
+            ".post-46971 > .entry-media > figure > a",
+            ".post-46544 > .entry-media > figure > a"
+          ]
+        }
+      ],
+      "violationTotal": 8,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "h1",
+            "h1 > span",
+            "#cat"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 10,
+          "firstTargets": [
+            ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/foundation/",
+      "title": "Alumni & Foundation - Otero College",
+      "finalUrl": "https://otero.edu/foundation/",
+      "slug": "foundation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/international/",
+      "title": "International - Otero College",
+      "finalUrl": "https://otero.edu/international/",
+      "slug": "international",
+      "violations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "#wp-block-themeisle-blocks-tabs-bb49291a > .wp-block-themeisle-blocks-tabs__header > .active.wp-block-themeisle-blocks-tabs__header_item > div[role=\"tab\"]",
+            "#wp-block-themeisle-blocks-tabs-bb49291a > .wp-block-themeisle-blocks-tabs__header > .wp-block-themeisle-blocks-tabs__header_item:nth-child(2) > div[role=\"tab\"]",
+            "#wp-block-themeisle-blocks-tabs-bb49291a > .wp-block-themeisle-blocks-tabs__header > .wp-block-themeisle-blocks-tabs__header_item:nth-child(3) > div[role=\"tab\"]",
+            "#wp-block-themeisle-blocks-tabs-bb49291a > .wp-block-themeisle-blocks-tabs__header > .wp-block-themeisle-blocks-tabs__header_item:nth-child(4) > div[role=\"tab\"]",
+            ".wp-block-themeisle-blocks-tabs__header_item:nth-child(5) > div[role=\"tab\"]"
+          ]
+        }
+      ],
+      "violationTotal": 23,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/mc-events/arpa-board-of-directors-meeting-3/",
+      "title": "ARPA Board of Directors Meeting - Otero College",
+      "finalUrl": "https://otero.edu/mc-events/arpa-board-of-directors-meeting-3/",
+      "slug": "mc-events-arpa-board-of-directors-meeting-3",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/mc-events/boces-special-education-plc/",
+      "title": "BOCES Special Education PLC - Otero College",
+      "finalUrl": "https://otero.edu/mc-events/boces-special-education-plc/",
+      "slug": "mc-events-boces-special-education-plc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/mc-events/colorado-parks-and-wildlife-commission-meeting/",
+      "title": "Colorado Parks and Wildlife Commission Meeting - Otero College",
+      "finalUrl": "https://otero.edu/mc-events/colorado-parks-and-wildlife-commission-meeting/",
+      "slug": "mc-events-colorado-parks-and-wildlife-commission-meeting",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/NetPriceCalculator/",
+      "title": "Net Price Calculator",
+      "finalUrl": "https://otero.edu/NetPriceCalculator/",
+      "slug": "NetPriceCalculator",
+      "violations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".active",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(2)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(3)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(4)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(5)"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": []
+    },
+    {
+      "url": "https://otero.edu/newsroom/",
+      "title": "Newsroom - Otero College",
+      "finalUrl": "https://otero.edu/newsroom/",
+      "slug": "newsroom",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            ".post-47192 > .entry-media > figure > a",
+            ".post-47069 > .entry-media > figure > a",
+            ".post-47021 > .entry-media > figure > a",
+            ".post-46986 > .entry-media > figure > a",
+            ".post-46971 > .entry-media > figure > a"
+          ]
+        }
+      ],
+      "violationTotal": 8,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#cat",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 10,
+          "firstTargets": [
+            ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47160 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
+            ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/otero-college-foundation-golf-tournament-set-for-august-29-2/",
+      "title": "Otero College Foundation Golf Tournament set for August 29 - Otero College",
+      "finalUrl": "https://otero.edu/otero-college-foundation-golf-tournament-set-for-august-29-2/",
+      "slug": "otero-college-foundation-golf-tournament-set-for-august-29-2",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "h1",
+            "a[rel=\"category tag\"]:nth-child(3)",
+            "a[rel=\"category tag\"]:nth-child(5)"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program/",
+      "title": "Otero College Receives $125,000 Grant from the Denver Foundation’s Reisher Scholars Program - Otero College",
+      "finalUrl": "https://otero.edu/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program/",
+      "slug": "otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "h1",
+            "a[rel=\"category tag\"]:nth-child(3)",
+            "a[rel=\"category tag\"]:nth-child(5)"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/otero-foundation-board-honors-betty-velasquez-for-years-of-service/",
+      "title": "Otero Foundation Board Honors Betty Velasquez for Years of Service - Otero College",
+      "finalUrl": "https://otero.edu/otero-foundation-board-honors-betty-velasquez-for-years-of-service/",
+      "slug": "otero-foundation-board-honors-betty-velasquez-for-years-of-service",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "h1",
+            "a[rel=\"category tag\"]:nth-child(3)",
+            "a[rel=\"category tag\"]:nth-child(5)"
+          ]
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[rel=\"bookmark\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/",
+      "title": "Pay for College - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/",
+      "slug": "pay-for-college",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            ".entry-summary",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/empowered/",
+      "title": "EmpowerEd - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/empowered/",
+      "slug": "pay-for-college-empowered",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/financial-aid/",
+      "title": "Financial Aid - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/financial-aid/",
+      "slug": "pay-for-college-financial-aid",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/fostered-etv/",
+      "title": "FosterEd & ETV - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/fostered-etv/",
+      "slug": "pay-for-college-fostered-etv",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/loans/",
+      "title": "Loans - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/loans/",
+      "slug": "pay-for-college-loans",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".wp-block-paragraph:nth-child(5) > a[href=\"#\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/pay-your-bill-refunds/",
+      "title": "Pay Your Bill & Refunds - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/pay-your-bill-refunds/",
+      "slug": "pay-for-college-pay-your-bill-refunds",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/scholarships-grants/",
+      "title": "Scholarships & Grants - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/scholarships-grants/",
+      "slug": "pay-for-college-scholarships-grants",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#dt-length-0",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/student-employment/",
+      "title": "Student Employment - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/student-employment/",
+      "slug": "pay-for-college-student-employment",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/tuition-fees/",
+      "title": "Tuition & Fees - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/tuition-fees/",
+      "slug": "pay-for-college-tuition-fees",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/pay-for-college/veterans-benefits/",
+      "title": "Veterans Benefits - Otero College",
+      "finalUrl": "https://otero.edu/pay-for-college/veterans-benefits/",
+      "slug": "pay-for-college-veterans-benefits",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/",
+      "title": "Resources - Otero College",
+      "finalUrl": "https://otero.edu/resources/",
+      "slug": "resources",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/accessibilityservices/",
+      "title": "Accessibility Services - Otero College",
+      "finalUrl": "https://otero.edu/resources/accessibilityservices/",
+      "slug": "resources-accessibilityservices",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/advising/",
+      "title": "Advising - Otero College",
+      "finalUrl": "https://otero.edu/resources/advising/",
+      "slug": "resources-advising",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
+            ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
+            ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
+            ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/bookstore-apparel/",
+      "title": "Bookstore & Apparel - Otero College",
+      "finalUrl": "https://otero.edu/resources/bookstore-apparel/",
+      "slug": "resources-bookstore-apparel",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/graduation-application/",
+      "title": "Graduation Application - Otero College",
+      "finalUrl": "https://otero.edu/resources/graduation-application/",
+      "slug": "resources-graduation-application",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#JotFormIFrame-222216178583054 #input_10_pick"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "h1",
+            "#JotFormIFrame-222216178583054 #lite_mode_10",
+            "#JotFormIFrame-222216178583054 #label_input_6_0"
+          ]
+        },
+        {
+          "id": "form-field-multiple-labels",
+          "impact": "moderate",
+          "help": "Form field must not have multiple label elements",
+          "wcag": [
+            "wcag2a",
+            "wcag332"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "#JotFormIFrame-222216178583054 #first_9",
+            "#JotFormIFrame-222216178583054 #input_11",
+            "#JotFormIFrame-222216178583054 #input_13"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/it-services/",
+      "title": "IT Services - Otero College",
+      "finalUrl": "https://otero.edu/resources/it-services/",
+      "slug": "resources-it-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/library-learning-commons/",
+      "title": "Learning Commons - Otero College",
+      "finalUrl": "https://otero.edu/resources/library-learning-commons/",
+      "slug": "resources-library-learning-commons",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/library-services/",
+      "title": "Library Services - Otero College",
+      "finalUrl": "https://otero.edu/resources/library-services/",
+      "slug": "resources-library-services",
+      "violations": [
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "select"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/mental-health-services/",
+      "title": "Mental Health Services - Otero College",
+      "finalUrl": "https://otero.edu/resources/mental-health-services/",
+      "slug": "resources-mental-health-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/online-education-resources-and-support/",
+      "title": "Online Education Resources and Support - Otero College",
+      "finalUrl": "https://otero.edu/resources/online-education-resources-and-support/",
+      "slug": "resources-online-education-resources-and-support",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/replacement-diploma/",
+      "title": "Replacement Diploma or Certificate - Otero College",
+      "finalUrl": "https://otero.edu/resources/replacement-diploma/",
+      "slug": "resources-replacement-diploma",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#JotFormIFrame-213074013618043 .form-single-column"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            "#JotFormIFrame-213074013618043 #input_2",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        },
+        {
+          "id": "form-field-multiple-labels",
+          "impact": "moderate",
+          "help": "Form field must not have multiple label elements",
+          "wcag": [
+            "wcag2a",
+            "wcag332"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "#JotFormIFrame-213074013618043 #first_4",
+            "#JotFormIFrame-213074013618043 #input_6",
+            "#JotFormIFrame-213074013618043 #input_14"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/student-services-center/",
+      "title": "Student Services Center - Otero College",
+      "finalUrl": "https://otero.edu/resources/student-services-center/",
+      "slug": "resources-student-services-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/student-support-services-trio/",
+      "title": "Student Support Services - TRiO - Otero College",
+      "finalUrl": "https://otero.edu/resources/student-support-services-trio/",
+      "slug": "resources-student-support-services-trio",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"1320\"] .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/transcript-request/",
+      "title": "Transcript Request - Otero College",
+      "finalUrl": "https://otero.edu/resources/transcript-request/",
+      "slug": "resources-transcript-request",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://otero.edu/resources/tutoring/",
+      "title": "Tutoring - Otero College",
+      "finalUrl": "https://otero.edu/resources/tutoring/",
+      "slug": "resources-tutoring",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".gt_switcher-popup > span:nth-child(3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://otero.edu/": "pages/home.html",
+    "https://otero.edu/about/": "pages/about.html",
+    "https://otero.edu/about/accreditation/": "pages/about-accreditation.html",
+    "https://otero.edu/about/advisory-council/": "pages/about-advisory-council.html",
+    "https://otero.edu/about/campus-connections-committee/": "pages/about-campus-connections-committee.html",
+    "https://otero.edu/about/campus-map-directions/": "pages/about-campus-map-directions.html",
+    "https://otero.edu/about/campus-media/": "pages/about-campus-media.html",
+    "https://otero.edu/about/careers/": "pages/about-careers.html",
+    "https://otero.edu/about/commencement/": "pages/about-commencement.html",
+    "https://otero.edu/about/directory/": "pages/about-directory.html",
+    "https://otero.edu/about/facilities-enrollment-plans/": "pages/about-facilities-enrollment-plans.html",
+    "https://otero.edu/about/hispanic-serving-institution/": "pages/about-hispanic-serving-institution.html",
+    "https://otero.edu/about/history/": "pages/about-history.html",
+    "https://otero.edu/about/office-of-the-president/": "pages/about-office-of-the-president.html",
+    "https://otero.edu/about/policies-procedures/": "pages/about-policies-procedures.html",
+    "https://otero.edu/about/policies-procedures/privacy-policy/": "pages/about-policies-procedures-privacy-policy.html",
+    "https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct/": "pages/about-policies-procedures-title-ix-sexual-misconduct.html",
+    "https://otero.edu/about/student-achievement-institutional-data/": "pages/about-student-achievement-institutional-data.html",
+    "https://otero.edu/about/web-accessibility-statement/": "pages/about-web-accessibility-statement.html",
+    "https://otero.edu/academics-programs/": "pages/academics-programs.html",
+    "https://otero.edu/academics-programs/alternative-credit-project/": "pages/academics-programs-alternative-credit-project.html",
+    "https://otero.edu/academics-programs/bridge-to-bachelors/": "pages/academics-programs-bridge-to-bachelors.html",
+    "https://otero.edu/academics-programs/career-workforce-training/": "pages/academics-programs-career-workforce-training.html",
+    "https://otero.edu/academics-programs/course-schedules/": "pages/academics-programs-course-schedules.html",
+    "https://otero.edu/academics-programs/financial-education-microcredential/": "pages/academics-programs-financial-education-microcredential.html",
+    "https://otero.edu/academics-programs/hybrid-courses/": "pages/academics-programs-hybrid-courses.html",
+    "https://otero.edu/academics-programs/short-courses-fundamentals/": "pages/academics-programs-short-courses-fundamentals.html",
+    "https://otero.edu/academics-programs/transfer-agreements/": "pages/academics-programs-transfer-agreements.html",
+    "https://otero.edu/apply/": "pages/apply.html",
+    "https://otero.edu/become-a-student/": "pages/become-a-student.html",
+    "https://otero.edu/become-a-student/bueno-hep/": "pages/become-a-student-bueno-hep.html",
+    "https://otero.edu/become-a-student/concurrent-enrollment/": "pages/become-a-student-concurrent-enrollment.html",
+    "https://otero.edu/become-a-student/discovery-day/": "pages/become-a-student-discovery-day.html",
+    "https://otero.edu/become-a-student/living-on-campus/": "pages/become-a-student-living-on-campus.html",
+    "https://otero.edu/become-a-student/placement-testing/": "pages/become-a-student-placement-testing.html",
+    "https://otero.edu/become-a-student/student-orientation/": "pages/become-a-student-student-orientation.html",
+    "https://otero.edu/become-a-student/transfer/": "pages/become-a-student-transfer.html",
+    "https://otero.edu/become-a-student/visit-campus/": "pages/become-a-student-visit-campus.html",
+    "https://otero.edu/calendar/": "pages/calendar.html",
+    "https://otero.edu/campus-community/": "pages/campus-community.html",
+    "https://otero.edu/campus-community/campus-facilities/": "pages/campus-community-campus-facilities.html",
+    "https://otero.edu/campus-community/campus-safety/": "pages/campus-community-campus-safety.html",
+    "https://otero.edu/campus-community/campus-safety/care-team/": "pages/campus-community-campus-safety-care-team.html",
+    "https://otero.edu/campus-community/chinook-publication/": "pages/campus-community-chinook-publication.html",
+    "https://otero.edu/campus-community/clubs-organizations/": "pages/campus-community-clubs-organizations.html",
+    "https://otero.edu/campus-community/clubs-organizations/dance-studio/": "pages/campus-community-clubs-organizations-dance-studio.html",
+    "https://otero.edu/campus-community/cultural-events/": "pages/campus-community-cultural-events.html",
+    "https://otero.edu/campus-community/dining-services/": "pages/campus-community-dining-services.html",
+    "https://otero.edu/campus-community/events-registration/": "pages/campus-community-events-registration.html",
+    "https://otero.edu/campus-community/events-registration/girls-in-the-middle/": "pages/campus-community-events-registration-girls-in-the-middle.html",
+    "https://otero.edu/campus-community/fitness-center/": "pages/campus-community-fitness-center.html",
+    "https://otero.edu/campus-community/stem-on-campus/": "pages/campus-community-stem-on-campus.html",
+    "https://otero.edu/catalog/": "pages/catalog.html",
+    "https://otero.edu/catalog/academic-calendar-catalog/": "pages/catalog-academic-calendar-catalog.html",
+    "https://otero.edu/catalog/degrees-certificates/": "pages/catalog-degrees-certificates.html",
+    "https://otero.edu/catalog/mission-statement-strategic-plan/": "pages/catalog-mission-statement-strategic-plan.html",
+    "https://otero.edu/catalog/tuition-fees-catalog/": "pages/catalog-tuition-fees-catalog.html",
+    "https://otero.edu/category/rattler-nation-newsroom/alumni/": "pages/category-rattler-nation-newsroom-alumni.html",
+    "https://otero.edu/category/rattler-nation-newsroom/foundation-news/": "pages/category-rattler-nation-newsroom-foundation-news.html",
+    "https://otero.edu/foundation/": "pages/foundation.html",
+    "https://otero.edu/international/": "pages/international.html",
+    "https://otero.edu/mc-events/arpa-board-of-directors-meeting-3/": "pages/mc-events-arpa-board-of-directors-meeting-3.html",
+    "https://otero.edu/mc-events/boces-special-education-plc/": "pages/mc-events-boces-special-education-plc.html",
+    "https://otero.edu/mc-events/colorado-parks-and-wildlife-commission-meeting/": "pages/mc-events-colorado-parks-and-wildlife-commission-meeting.html",
+    "https://otero.edu/NetPriceCalculator/": "pages/NetPriceCalculator.html",
+    "https://otero.edu/newsroom/": "pages/newsroom.html",
+    "https://otero.edu/otero-college-foundation-golf-tournament-set-for-august-29-2/": "pages/otero-college-foundation-golf-tournament-set-for-august-29-2.html",
+    "https://otero.edu/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program/": "pages/otero-college-receives-125000-grant-from-the-denver-foundations-reisher-scholars-program.html",
+    "https://otero.edu/otero-foundation-board-honors-betty-velasquez-for-years-of-service/": "pages/otero-foundation-board-honors-betty-velasquez-for-years-of-service.html",
+    "https://otero.edu/pay-for-college/": "pages/pay-for-college.html",
+    "https://otero.edu/pay-for-college/empowered/": "pages/pay-for-college-empowered.html",
+    "https://otero.edu/pay-for-college/financial-aid/": "pages/pay-for-college-financial-aid.html",
+    "https://otero.edu/pay-for-college/fostered-etv/": "pages/pay-for-college-fostered-etv.html",
+    "https://otero.edu/pay-for-college/loans/": "pages/pay-for-college-loans.html",
+    "https://otero.edu/pay-for-college/pay-your-bill-refunds/": "pages/pay-for-college-pay-your-bill-refunds.html",
+    "https://otero.edu/pay-for-college/scholarships-grants/": "pages/pay-for-college-scholarships-grants.html",
+    "https://otero.edu/pay-for-college/student-employment/": "pages/pay-for-college-student-employment.html",
+    "https://otero.edu/pay-for-college/tuition-fees/": "pages/pay-for-college-tuition-fees.html",
+    "https://otero.edu/pay-for-college/veterans-benefits/": "pages/pay-for-college-veterans-benefits.html",
+    "https://otero.edu/resources/": "pages/resources.html",
+    "https://otero.edu/resources/accessibilityservices/": "pages/resources-accessibilityservices.html",
+    "https://otero.edu/resources/advising/": "pages/resources-advising.html",
+    "https://otero.edu/resources/bookstore-apparel/": "pages/resources-bookstore-apparel.html",
+    "https://otero.edu/resources/graduation-application/": "pages/resources-graduation-application.html",
+    "https://otero.edu/resources/it-services/": "pages/resources-it-services.html",
+    "https://otero.edu/resources/library-learning-commons/": "pages/resources-library-learning-commons.html",
+    "https://otero.edu/resources/library-services/": "pages/resources-library-services.html",
+    "https://otero.edu/resources/mental-health-services/": "pages/resources-mental-health-services.html",
+    "https://otero.edu/resources/online-education-resources-and-support/": "pages/resources-online-education-resources-and-support.html",
+    "https://otero.edu/resources/replacement-diploma/": "pages/resources-replacement-diploma.html",
+    "https://otero.edu/resources/student-services-center/": "pages/resources-student-services-center.html",
+    "https://otero.edu/resources/student-support-services-trio/": "pages/resources-student-support-services-trio.html",
+    "https://otero.edu/resources/transcript-request/": "pages/resources-transcript-request.html",
+    "https://otero.edu/resources/tutoring/": "pages/resources-tutoring.html"
+  }
+}

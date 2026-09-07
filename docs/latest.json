@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-31T12:09:32.693Z",
+  "siteGenerated": "2026-09-07T11:02:26.426Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-08-31T12:09:32.129Z",
+    "generated": "2026-09-07T11:02:25.461Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -1118,11 +1118,11 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 18,
+            "nodes": 15,
             "firstTargets": [
-              "#label_modal_ukopik2qhi",
-              "#label_modal_r558nkc2et",
-              "#label_modal_h9i16tv57o"
+              "#label_modal_tktkonacbo",
+              "#label_modal_adrq2lmrov",
+              "#label_modal_pqhc2u56qc"
             ]
           },
           {
@@ -1588,17 +1588,17 @@
               "wcag244",
               "wcag412"
             ],
-            "nodes": 6,
+            "nodes": 7,
             "firstTargets": [
+              ".post-47192 > .entry-media > figure > a",
               ".post-47069 > .entry-media > figure > a",
               ".post-46971 > .entry-media > figure > a",
               ".post-46540 > .entry-media > figure > a",
-              ".post-43076 > .entry-media > figure > a",
-              ".post-43064 > .entry-media > figure > a"
+              ".post-43076 > .entry-media > figure > a"
             ]
           }
         ],
-        "violationTotal": 6,
+        "violationTotal": 7,
         "incomplete": [
           {
             "id": "color-contrast",
@@ -1623,11 +1623,11 @@
               "wcag2a",
               "wcag141"
             ],
-            "nodes": 7,
+            "nodes": 8,
             "firstTargets": [
+              ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
               ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-46971 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
             ]
           }
         ]
@@ -1650,11 +1650,11 @@
             ],
             "nodes": 8,
             "firstTargets": [
+              ".post-47192 > .entry-media > figure > a",
               ".post-47069 > .entry-media > figure > a",
               ".post-47021 > .entry-media > figure > a",
               ".post-46971 > .entry-media > figure > a",
-              ".post-46544 > .entry-media > figure > a",
-              ".post-46540 > .entry-media > figure > a"
+              ".post-46544 > .entry-media > figure > a"
             ]
           }
         ],
@@ -1685,9 +1685,9 @@
             ],
             "nodes": 10,
             "firstTargets": [
+              ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
               ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47021 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
             ]
           }
         ]
@@ -1875,17 +1875,17 @@
               "wcag244",
               "wcag412"
             ],
-            "nodes": 7,
+            "nodes": 8,
             "firstTargets": [
+              ".post-47192 > .entry-media > figure > a",
               ".post-47069 > .entry-media > figure > a",
               ".post-47021 > .entry-media > figure > a",
               ".post-46986 > .entry-media > figure > a",
-              ".post-46971 > .entry-media > figure > a",
-              ".post-46544 > .entry-media > figure > a"
+              ".post-46971 > .entry-media > figure > a"
             ]
           }
         ],
-        "violationTotal": 7,
+        "violationTotal": 8,
         "incomplete": [
           {
             "id": "color-contrast",
@@ -1912,9 +1912,9 @@
             ],
             "nodes": 10,
             "firstTargets": [
+              ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
               ".post-47160 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47069 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+              ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
             ]
           }
         ]
