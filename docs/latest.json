@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-07T11:02:26.426Z",
+  "siteGenerated": "2026-09-14T11:17:20.520Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-09-07T11:02:25.461Z",
+    "generated": "2026-09-14T11:17:19.543Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -1120,9 +1120,9 @@
             ],
             "nodes": 15,
             "firstTargets": [
-              "#label_modal_tktkonacbo",
-              "#label_modal_adrq2lmrov",
-              "#label_modal_pqhc2u56qc"
+              "#label_modal_og8pcq5nra",
+              "#label_modal_2taiu6ltmg",
+              "#label_modal_3uk0861vf8"
             ]
           },
           {
@@ -1875,7 +1875,7 @@
               "wcag244",
               "wcag412"
             ],
-            "nodes": 8,
+            "nodes": 7,
             "firstTargets": [
               ".post-47192 > .entry-media > figure > a",
               ".post-47069 > .entry-media > figure > a",
@@ -1885,7 +1885,7 @@
             ]
           }
         ],
-        "violationTotal": 8,
+        "violationTotal": 7,
         "incomplete": [
           {
             "id": "color-contrast",
@@ -1912,9 +1912,9 @@
             ],
             "nodes": 10,
             "firstTargets": [
+              ".post-47203 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
               ".post-47192 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47160 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]",
-              ".post-47084 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
+              ".post-47160 > .entry-meta > .entry-date.posted-on.entry-meta-item > a[rel=\"bookmark\"]"
             ]
           }
         ]
