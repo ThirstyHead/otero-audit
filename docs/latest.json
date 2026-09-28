@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-21T11:25:23.546Z",
+  "siteGenerated": "2026-09-28T12:20:19.228Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-09-21T11:25:22.917Z",
+    "generated": "2026-09-28T12:20:18.482Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -76,8 +76,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "iframe[width=\"150\"] #yoshkiImageLinkPopup_Link",
-              "iframe[width=\"150\"] #yoshkiCopyrightLinkPopup_Link"
+              "iframe #yoshkiImageLinkPopup_Link",
+              "iframe #yoshkiCopyrightLinkPopup_Link"
             ]
           }
         ],
@@ -187,8 +187,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
-              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle",
+              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -202,8 +202,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
-              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe #movie_player",
+              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe #movie_player"
             ]
           },
           {
@@ -217,8 +217,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
-              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+              "figure:nth-child(4) > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar",
+              "figure:nth-child(8) > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -815,8 +815,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle",
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -830,8 +830,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe #movie_player",
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe #movie_player"
             ]
           },
           {
@@ -845,8 +845,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
-              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(4) > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar",
+              ".wp-block-embed.is-type-video.is-provider-youtube:nth-child(5) > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1118,11 +1118,11 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 15,
+            "nodes": 18,
             "firstTargets": [
-              "#label_modal_28agq6trtn",
-              "#label_modal_l3ppeitjmg",
-              "#label_modal_3c02c4rf8h"
+              "#modal-button-mc_calendar_31_217-calendar-details-217",
+              "#modal-button-mc_calendar_01_39-calendar-details-39",
+              "#modal-button-mc_calendar_02_40-calendar-details-40"
             ]
           },
           {
@@ -2348,7 +2348,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] .ytmVideoInfoVideoTitle"
+              "iframe .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2362,7 +2362,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] #movie_player"
+              "iframe #movie_player"
             ]
           },
           {
@@ -2376,7 +2376,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] .ytmVideoInfoChannelAvatar"
+              "iframe .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -2415,8 +2415,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle",
-              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoVideoTitle"
+              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle",
+              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2430,8 +2430,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player",
-              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] #movie_player"
+              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe #movie_player",
+              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe #movie_player"
             ]
           },
           {
@@ -2445,8 +2445,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar",
-              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe[width=\"1320\"][height=\"743\"][frameborder=\"0\"] .ytmVideoInfoChannelAvatar"
+              ".wp-block-column:nth-child(1) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar",
+              ".wp-block-column:nth-child(2) > .wp-embed-aspect-16-9.wp-has-aspect-ratio.wp-block-embed > .wp-block-embed__wrapper > iframe .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -2761,7 +2761,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] .ytmVideoInfoVideoTitle"
+              "iframe .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2775,7 +2775,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] #movie_player"
+              "iframe #movie_player"
             ]
           },
           {
@@ -2789,7 +2789,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "iframe[width=\"1320\"] .ytmVideoInfoChannelAvatar"
+              "iframe .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
