@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-28T12:20:19.228Z",
+  "siteGenerated": "2026-10-05T12:59:12.997Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-09-28T12:20:18.482Z",
+    "generated": "2026-10-05T12:59:11.996Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -353,9 +353,8 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 3,
+            "nodes": 2,
             "firstTargets": [
-              "h1",
               "#dt-length-0",
               ".gt_switcher-popup > span:nth-child(3)"
             ]
@@ -1118,11 +1117,11 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 18,
+            "nodes": 16,
             "firstTargets": [
-              "#modal-button-mc_calendar_31_217-calendar-details-217",
-              "#modal-button-mc_calendar_01_39-calendar-details-39",
-              "#modal-button-mc_calendar_02_40-calendar-details-40"
+              "#modal-button-mc_calendar_27_233-calendar-details-233",
+              "#modal-button-mc_calendar_29_151-calendar-details-151",
+              "#modal-button-mc_calendar_29_224-calendar-details-224"
             ]
           },
           {
