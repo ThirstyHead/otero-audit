@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-10-19T11:32:51.963Z",
+  "siteGenerated": "2026-10-26T12:00:00.929Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-otero.edu",
   "report": {
-    "generated": "2026-10-19T11:32:51.118Z",
+    "generated": "2026-10-26T11:59:59.941Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -2520,11 +2520,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 12,
+            "nodes": 11,
             "firstTargets": [
               "h1",
-              "#JotFormIFrame-222216178583054 #lite_mode_10",
-              "#JotFormIFrame-222216178583054 #label_input_6_0"
+              "#JotFormIFrame-222216178583054 #label_input_6_0",
+              "#JotFormIFrame-222216178583054 #label_input_6_1"
             ]
           },
           {
